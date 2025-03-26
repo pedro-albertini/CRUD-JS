@@ -1,0 +1,15 @@
+create database fatec1;
+use fatec1;
+
+create table student(
+id int auto_increment not null,
+nome varchar(100) null,
+email varchar(100) null,
+primary key(id));
+
+insert into student values
+(1, 'Ringo', 'ringo@ig.com'),
+(2, 'John', 'john@ig.com'),
+(3, 'Paul', 'paul@ig.com');
+
+select * from student;
